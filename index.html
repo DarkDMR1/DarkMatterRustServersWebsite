@@ -17,7 +17,7 @@
     }
     body {
       color: white;
-      font-family: 'mycustomfont', sans-serif;
+      font-family: 'mycustomfont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       background: linear-gradient(to right, rgb(32, 33, 34), rgb(56, 53, 53));
     }
     .nav-bar {
@@ -82,23 +82,10 @@
     }
     a:hover {
       color: rgb(19, 18, 18);
+      transition: 0.4s ease;
     }
     a:active {
       color: rgb(32, 31, 31);
-    }
-    a.features {
-      font-weight: 800;
-      border-radius: 10px;
-      text-decoration: none;
-      padding-left: 2rem;
-      padding-right: 2rem;
-      background: linear-gradient(to right, rgb(22, 21, 21), rgb(151, 149, 145));
-      background-size:100%;
-      border:2px solid white;
-      flex-shrink: 0;
-      flex-grow: 0;
-      white-space: nowrap;
-    
     }
     #features-header {
       text-align: center;
@@ -195,6 +182,9 @@
         background:linear-gradient(rgb(36, 35, 35),rgb(48, 50, 51));
         padding:10px
       }
+      #cc:hover{
+        transform:scale(1.03)
+      }
     
 
   </style>
@@ -203,7 +193,7 @@
   <div class="nav-bar">
     <img id="logo" src="Dark matter rust offical.PNG" alt="DarkMatterRustLogo" />
     <a href="index.html">HOME</a>
-    <a href="https://discord.gg/f4e7y9NP8g" target="_blank">DISCORD</a>
+      <a href="https://discord.gg/f4e7y9NP8g" target="_blank">DISCORD</a>
     <a href="https://darkmatterrust.tebex.io/" target="_blank">STORE</a>
   </div>
   <main>
